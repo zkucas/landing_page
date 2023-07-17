@@ -80,6 +80,7 @@ h3{
     color: white;
     border-radius: 4px;
     padding:10px 20px;
+    border: 2px solid #E8E8E8;
  }
 
  .middle-top{
@@ -104,9 +105,34 @@ h3{
     background-color: gainsboro;
     font-family: 'Arial Narrow';
     text-align: center;
-    opacity: 50%;
+    opacity: 60%;
     padding: 54px;
     font-size: 1.3rem;
     font-style: italic;
  }
 
+ .bottom{
+    display: flex;
+    justify-content: center;
+
+    margin: 48px;
+    color: white;
+
+ }
+
+ .bottom-box{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    background-color:#3882F6;
+ }
+
+ .footer{
+    background-color: #1f2937;
+    text-align: center;
+    font-size: smaller;
+    opacity: 80%;
+    padding:24px;
+ }
